@@ -895,7 +895,7 @@ function Footer() {
       <div className="footer-logo">DS·2025</div>
       <div className="footer-copy">© 2025 DAKSH SAWANT // ALL SYSTEMS NOMINAL</div>
       <div className="footer-links" style={{ display: "flex", gap: 16 }}>
-        {[["EMAIL", "mailto:daksh.s.1808@gmail.com"], ["LINKEDIN", "https://linkedin.com/in/daksh-sawant"], ["RESEARCH", "http://www.ijrar.org/papers/IJRAR23C1417.pdf"]].map(([l, h]) => (
+        {[["EMAIL", "mailto:daksh.s.1808@gmail.com"], ["LINKEDIN", "https://www.linkedin.com/in/daksh-sawant-622920236?utm_source=share_via&utm_content=profile&utm_medium=member_android"], ["RESEARCH", "http://www.ijrar.org/papers/IJRAR23C1417.pdf"]].map(([l, h]) => (
           <a key={l} href={h} target="_blank" rel="noreferrer" className="footer-link">{l}</a>
         ))}
       </div>
