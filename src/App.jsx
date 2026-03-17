@@ -564,7 +564,7 @@ function HeroSection() {
           <div style={{ animation: "fadeReveal .7s .1s both" }}>
             <div className="hero-system-id">
               <span className="sys-dot" />
-              SYS·ID: DS·2025·MCA·VESIT &nbsp;|&nbsp; STATUS: ONLINE
+              SYS·ID: DS·2026·MCA·VESIT &nbsp;|&nbsp; STATUS: ONLINE
             </div>
             <div className="hero-name">DAKSH<span className="accent">SAWANT</span></div>
             <div className="hero-role">Full‑Stack Developer · ERP Specialist · IoT Researcher</div>
@@ -892,8 +892,8 @@ function ContactSection() {
 function Footer() {
   return (
     <footer>
-      <div className="footer-logo">DS·2025</div>
-      <div className="footer-copy">© 2025 DAKSH SAWANT // ALL SYSTEMS NOMINAL</div>
+      <div className="footer-logo">DS·2026</div>
+      <div className="footer-copy">© 2026 DAKSH SAWANT // ALL SYSTEMS NOMINAL</div>
       <div className="footer-links" style={{ display: "flex", gap: 16 }}>
         {[["EMAIL", "mailto:daksh.s.1808@gmail.com"], ["LINKEDIN", "https://linkedin.com/in/daksh-sawant"], ["RESEARCH", "http://www.ijrar.org/papers/IJRAR23C1417.pdf"]].map(([l, h]) => (
           <a key={l} href={h} target="_blank" rel="noreferrer" className="footer-link">{l}</a>
