@@ -816,7 +816,7 @@ function ContactSection() {
   const LINKS = [
     { href: "mailto:daksh.s.1808@gmail.com", icon: "✉", bg: "rgba(0,200,255,.1)", c: "var(--cyan)", label: "Email", val: "daksh.s.1808@gmail.com" },
     { href: "tel:+919834606550", icon: "☎", bg: "rgba(0,255,157,.1)", c: "var(--green)", label: "Phone", val: "+91 98346 06550" },
-    { href: "https://linkedin.com/in/daksh-sawant", target: "_blank", icon: "in", bg: "rgba(170,102,255,.1)", c: "var(--violet)", label: "LinkedIn", val: "linkedin.com/in/daksh-sawant" },
+    { href: "https://www.linkedin.com/in/daksh-sawant-622920236?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app", target: "_blank", icon: "in", bg: "rgba(170,102,255,.1)", c: "var(--violet)", label: "LinkedIn", val: "linkedin.com/in/daksh-sawant" },
     { href: "http://www.ijrar.org/papers/IJRAR23C1417.pdf", target: "_blank", icon: "📄", bg: "rgba(255,204,0,.1)", c: "var(--amber)", label: "Research", val: "IoT & mHealth · IJRAR 2023" },
   ];
 
@@ -895,7 +895,7 @@ function Footer() {
       <div className="footer-logo">DS·2025</div>
       <div className="footer-copy">© 2025 DAKSH SAWANT // ALL SYSTEMS NOMINAL</div>
       <div className="footer-links" style={{ display: "flex", gap: 16 }}>
-        {[["EMAIL", "mailto:daksh.s.1808@gmail.com"], ["LINKEDIN", "https://www.linkedin.com/in/daksh-sawant-622920236?utm_source=share_via&utm_content=profile&utm_medium=member_android"], ["RESEARCH", "http://www.ijrar.org/papers/IJRAR23C1417.pdf"]].map(([l, h]) => (
+        {[["EMAIL", "mailto:daksh.s.1808@gmail.com"], ["LINKEDIN", "https://linkedin.com/in/daksh-sawant"], ["RESEARCH", "http://www.ijrar.org/papers/IJRAR23C1417.pdf"]].map(([l, h]) => (
           <a key={l} href={h} target="_blank" rel="noreferrer" className="footer-link">{l}</a>
         ))}
       </div>
